@@ -43,6 +43,11 @@ form button {
     font-weight: 700;
 }
 
+form button:hover,
+.delete-button:hover {
+    cursor: pointer;
+}
+
 ul {
     line-height: 1.6;
     padding: 0;
@@ -58,8 +63,4 @@ ul {
     color: blue;
     font-size: 0.8rem;
     margin-left: 0.4em;
-}
-
-.delete-button:hover {
-    cursor: pointer;
 }
