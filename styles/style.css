@@ -52,6 +52,7 @@ ul {
     background: none;
     color: blue;
     font-size: 0.8rem;
+    margin-left: 0.4em;
 }
 
 .delete-button:hover {

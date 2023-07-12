@@ -3,7 +3,7 @@ const addTask = e => {
   const newTask = e.target.elements[0].value;
   const list = document.querySelector("ul");
   list.innerHTML += `
-    <li onclick="taskDone(event)">${newTask} <button class="delete-button" onclick="deleteTask(event)" >delete task</button></li>
+    <li onclick="taskDone(event)">${newTask}<button class="delete-button" onclick="deleteTask(event)">delete</button></li>
     `;
   form = document.querySelector("form");
   form.reset();
