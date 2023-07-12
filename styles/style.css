@@ -14,12 +14,12 @@ body {
 
 main {
     width: 50%;
-    height: 100vh;
+    height: 100em;
     margin-inline: auto;
     word-wrap: break-word;
-    padding: 2em;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    padding: 3em;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
 }
 
 input,
@@ -41,6 +41,7 @@ form button {
 
 ul {
     line-height: 1.6;
+    padding: 0;
 }
 
 .done {
