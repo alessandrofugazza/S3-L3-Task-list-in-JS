@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    width: 50%;
+    height: 100vh;
+    margin-inline: auto;
+    word-wrap: break-word;
+    padding: 2em;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+input,
+input+button {
+    padding: 1em;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+}
+
+input {
+    margin-right: 2em;
+}
+
+form button {
+    background-color: bisque;
+    font-weight: 700;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.delete-button {
+    border: none;
+    background: none;
+    color: blue;
+    font-size: 0.8rem;
+}
+
+.delete-button:hover {
+    cursor: pointer;
+}
