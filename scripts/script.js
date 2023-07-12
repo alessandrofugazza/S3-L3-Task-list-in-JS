@@ -1,6 +1,9 @@
 const addTask = e => {
   e.preventDefault();
   const newTask = e.target.elements[0].value;
+  if (!newTask) {
+    return;
+  }
   const list = document.querySelector("ul");
   list.innerHTML += `
     <li onclick="taskDone(event)">${newTask}<button class="delete-button" onclick="deleteTask(event)">delete</button></li>
